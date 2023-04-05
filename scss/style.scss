@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+// body {
+//   max-width: 1200px;
+// }
+//=============== navbar ==================
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin: auto;
+  background-color: #f8f9fa;
+}
+button {
+  background: #007bff;
+  padding: 5px;
+  width: 70px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+// Header
+ .container{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/bg-masthead.jpg);
+  background-position: center;
+  opacity: 1;
+  text-align: center;
+  height: 300px;
+  padding: 100px;
+  color: white;
+ }
+ input {
+  display: flex;
+  margin-top: 20px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  color: #717583;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+ }
+ .email {
+display: grid;
+justify-content: center;
+align-items: center;
+ }
+ .container .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
