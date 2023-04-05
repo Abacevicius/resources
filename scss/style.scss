@@ -6,18 +6,21 @@
 }
 
 h1 {
+  max-width: 200px;
   color: white;
   text-align: center;
   margin-top: 40px;
 }
 // body {
-//   max-width: 1200px;
+//   max-widath: 1200px;
 // }
 //=============== navbar ==================
 nav {
   display: flex;
   justify-content: space-around;
   padding: 10px;
+  position: fixed;
+  width: 100%;
   margin: auto;
   background-color: #f8f9fa;
 }
@@ -60,8 +63,73 @@ display: grid;
 justify-content: center;
 align-items: center;
  }
- .container .btn {
+
+.email {
   display: flex;
+  gap: 15px;
+}
+.btn {
+  margin-top: 19px;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  background: #f8f9fa;
+}
+
+//  Info
+
+.info {
+  display: grid;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+ gap: 30px;
+  margin: auto;
+  height: 300px;
+}
+.icon {
+ font-size: 5em;
+ color:#007bff ;
+}
+h2 {
+  margin: 10px;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+ p {
+  color: #8d9993;
+  font-size: 1em;
+ }
+
+ article {
+  background: #ffffff;
+  height: 350px;
+  width: 50%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 30px;
+ }
+.content {
+  line-height: 25px;
+  max-width: 500px;
+  min-width: 500px;
+}
+ .article-2 {
+  background: url(../images/bg-showcase-1.jpg);
+  background-position: center;
+  background-size: cover;
+ }
+ .article-3 {
+  background: url(../images/bg-showcase-2.jpg);
+  background-position: center;
+  background-size: cover;
+ }
+ .article-6 {
+  background: url(../images/bg-showcase-3.jpg);
+  background-position: center;
+  background-size: cover;
  }
