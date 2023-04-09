@@ -1,0 +1,25 @@
+nav {
+ display: flex;
+ justify-content: space-around;
+ padding: 10px;
+ position: fixed;
+ width: 100%;
+ margin: auto;
+ background-color: $background-color_1;
+}
+
+button {
+ background: #007bff;
+ padding: 5px;
+ padding: 5px;
+ width: 70px;
+ color: $color_1;
+ border: none;
+ border-radius: 5px;
+}
+
+@media (max-width: 600px){
+ nav p {
+  color: $black;
+ }
+}
